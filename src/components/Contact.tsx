@@ -15,13 +15,13 @@ const Contact = () => {
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button variant="hero" size="lg" asChild>
-              <a href="mailto:daria@example.com">
+              <a href="mailto:d.tsarova.lenska@proton.me">
                 <Mail className="mr-2 h-5 w-5" />
                 Email Me
               </a>
             </Button>
             <Button variant="outline" size="lg" asChild>
-              <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+              <a href="/CV_Daria_Tsarova-Lenska.pdf" target="_blank" rel="noopener noreferrer">
                 <FileText className="mr-2 h-5 w-5" />
                 Download Resume
               </a>
@@ -32,13 +32,13 @@ const Contact = () => {
             <p className="text-sm text-muted-foreground">Find me on</p>
             <div className="flex gap-4 justify-center">
               <Button variant="outline" size="lg" asChild className="hover:border-primary/50">
-                <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/koalaboomka" target="_blank" rel="noopener noreferrer">
                   <Github className="mr-2 h-5 w-5" />
                   GitHub
                 </a>
               </Button>
               <Button variant="outline" size="lg" asChild className="hover:border-primary/50">
-                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/daria-tsarova-lenska/" target="_blank" rel="noopener noreferrer">
                   <Linkedin className="mr-2 h-5 w-5" />
                   LinkedIn
                 </a>
