@@ -46,22 +46,22 @@ const Hero = () => {
           {/* Social Links */}
           <div className="flex gap-4 animate-fade-in">
             <Button variant="ghost" size="icon" asChild className="hover:text-primary">
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+              <a href="https://github.com/koalaboomka" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
                 <Github className="h-5 w-5" />
               </a>
             </Button>
             <Button variant="ghost" size="icon" asChild className="hover:text-primary">
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+              <a href="https://www.linkedin.com/in/daria-tsarova-lenska/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                 <Linkedin className="h-5 w-5" />
               </a>
             </Button>
             <Button variant="ghost" size="icon" asChild className="hover:text-primary">
-              <a href="mailto:daria@example.com" aria-label="Email">
+              <a href="mailto:d.tsarova.lenska@proton.me" aria-label="Email">
                 <Mail className="h-5 w-5" />
               </a>
             </Button>
             <Button variant="ghost" size="icon" asChild className="hover:text-primary">
-              <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" aria-label="Resume">
+              <a href="/CV_Daria_Tsarova-Lenska.pdf" target="_blank" rel="noopener noreferrer" aria-label="Resume">
                 <FileText className="h-5 w-5" />
               </a>
             </Button>
