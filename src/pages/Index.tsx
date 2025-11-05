@@ -9,9 +9,9 @@ const Index = () => {
   return (
     <main className="min-h-screen">
       <Hero />
-      <Projects />
+      {/* <Projects /> */}
       <Experience />
-      <Blog />
+      {/*<Blog /> */}
       <Contact />
       <Footer />
     </main>
