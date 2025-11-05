@@ -2,33 +2,48 @@ import { Briefcase } from "lucide-react";
 
 const experiences = [
   {
-    company: "Tech Innovations Inc.",
-    role: "Senior Machine Learning Engineer",
-    period: "2022 - Present",
+    company: "Constructor Nexademy",
+    role: "Data Scientist (in training)",
+    period: "September - December 2025",
     description: [
-      "Led development of production ML systems processing 1M+ daily predictions",
-      "Designed and deployed scalable MLOps pipelines reducing model deployment time by 70%",
-      "Mentored team of 4 junior ML engineers on best practices and system architecture",
+      "Currently completing an intensive Data Science bootcamp, gaining hands-on"
+      "experience in data analysis, machine learning, and model deployment. Developing"
+      "end-to-end skills from data collection and preprocessing to statistical analysis,"
+      "predictive modeling, and interactive visualization."
+      "Skills: Python, Pandas, NumPy, SQL, Scikit-learn, NLP, CNNs, GitHub, Statistics, Data"
+      "Storytelling",
     ],
   },
   {
-    company: "DataScience Solutions",
-    role: "Machine Learning Engineer",
-    period: "2020 - 2022",
+    company: "Immoscout24",
+    role: "Engineering Manager",
+    period: "November 2021 - June 2025",
     description: [
-      "Built and optimized deep learning models achieving 95%+ accuracy on computer vision tasks",
-      "Implemented automated retraining pipelines with MLflow and Airflow",
-      "Collaborated with product teams to integrate ML features into customer-facing applications",
+      "Built and led a cross-functional engineering team focusing on data-driven products
+      "and analytics-based decision-making.",
+      "Hired and mentored a data engineer to lead ETL and pipeline development,
+      "improving data quality and reliability.",
+      "Partnered with product, data, and analytics teams to ensure accuracy and"
+      "accessibility of business-critical data."
+      "Oversaw migration of legacy tech, prioritizing modernization and cost efficiency."
+      "Drove stakeholder alignment across product, data, and engineering."
+      "Skills: Stakeholder Management, Cross-Functional Collaboration, Communication,"
+      "Data Quality, Data Modeling, Solution-Oriented Thinking"
     ],
   },
   {
-    company: "AI Research Lab",
-    role: "ML Research Intern",
-    period: "2019 - 2020",
+    company: "ING (Lendico)",
+    role: "Engineering Team Lead",
+    period: "December 2019 - October 2021",
     description: [
-      "Researched novel architectures for natural language understanding",
-      "Published findings at major ML conference (NeurIPS 2020)",
-      "Contributed to open-source ML frameworks with 500+ GitHub stars",
+      "Led the testing and integration workstream for payments and financial systems during"
+      "ING’s acquisition of Lendico."
+      "Established company-wide testing strategy ensuring compliance and data accuracy."
+      "Delivered joint product launch with Amazon, coordinating cross-functional efforts"
+      "from dev to release."
+      "Recruited, coached, and managed a QA team of 7 engineers."
+      "Skills: Ownership, Analytical Thinking, Attention to Detail, Curiosity, Payment Systems,"
+      "Financial Data Understanding, Adaptability"
     ],
   },
 ];
@@ -40,7 +55,7 @@ const Experience = () => {
         <div className="text-center mb-12 space-y-4">
           <h2>Experience</h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Building intelligent systems and leading ML initiatives across diverse industries.
+            Former meeting survivor, current ML engineer. Building intelligent systems hands-on, one epoch at a time.
           </p>
         </div>
         
