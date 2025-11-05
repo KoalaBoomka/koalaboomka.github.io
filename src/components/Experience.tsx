@@ -35,6 +35,29 @@ const experiences = [
       "Skills: Ownership, Analytical Thinking, Attention to Detail, Curiosity, Payment Systems, Financial Data Understanding, Adaptability"
     ],
   },
+  {
+    company: "Wire",
+    role: "Quality Assurance Engineer → Deputy Team Lead",
+    period: "September 2014 - November 2018",
+    description: [
+      "Streamlined release testing processes, decreasing testing duration from 8 days to 2 hours, enabling faster product iterations.",
+      "Managed iOS application delivery, coordinating schedules and communicating risks to stakeholders.",
+      "Built and led a high-performing QA team of 10 engineers, fostering a culture of trust and accountability.",
+      "Implemented efficient testing workflows that improved team productivity and product quality.",
+      "Skills: Process Optimization, Mobile Testing, Team Leadership, Stakeholder Communication, Risk Management, iOS Development"
+    ],
+  },
+  {
+    company: "Provectus",
+    role: "Quality Assurance Engineer → Team Lead",
+    period: "October 2010 - August 2014",
+    description: [
+      "Developed test automation strategies and scripts using Java 6, Selenium, and TestNG, improving test efficiency and coverage.",
+      "Integrated testing into the development process and coordinated testing schedules with release deadlines, significantly reducing delivery failure rates.",
+      "Managed cross-functional collaboration with external teams, business clients, and product stakeholders to ensure requirements compliance and on-time delivery.",
+      "Skills: Team Leadership, Test Automation, Java, Selenium, TestNG, Process Integration, Cross-functional Coordination, Release Management, Requirements Analysis"
+    ],
+  },
 ];
 
 const Experience = () => {
