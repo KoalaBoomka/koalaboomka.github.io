@@ -6,12 +6,8 @@ const experiences = [
     role: "Data Scientist (in training)",
     period: "September - December 2025",
     description: [
-      "Currently completing an intensive Data Science bootcamp, gaining hands-on"
-      "experience in data analysis, machine learning, and model deployment. Developing"
-      "end-to-end skills from data collection and preprocessing to statistical analysis,"
-      "predictive modeling, and interactive visualization."
-      "Skills: Python, Pandas, NumPy, SQL, Scikit-learn, NLP, CNNs, GitHub, Statistics, Data"
-      "Storytelling",
+      "Currently completing an intensive Data Science bootcamp, gaining hands-on experience in data analysis, machine learning, and model deployment. Developing end-to-end skills from data collection and preprocessing to statistical analysis, predictive modeling, and interactive visualization.",
+      "Skills: Python, Pandas, NumPy, SQL, Scikit-learn, NLP, CNNs, GitHub, Statistics, Data Storytelling"
     ],
   },
   {
@@ -19,16 +15,12 @@ const experiences = [
     role: "Engineering Manager",
     period: "November 2021 - June 2025",
     description: [
-      "Built and led a cross-functional engineering team focusing on data-driven products
-      "and analytics-based decision-making.",
-      "Hired and mentored a data engineer to lead ETL and pipeline development,
-      "improving data quality and reliability.",
-      "Partnered with product, data, and analytics teams to ensure accuracy and"
-      "accessibility of business-critical data."
-      "Oversaw migration of legacy tech, prioritizing modernization and cost efficiency."
-      "Drove stakeholder alignment across product, data, and engineering."
-      "Skills: Stakeholder Management, Cross-Functional Collaboration, Communication,"
-      "Data Quality, Data Modeling, Solution-Oriented Thinking"
+      "Built and led a cross-functional engineering team focusing on data-driven products and analytics-based decision-making.",
+      "Hired and mentored a data engineer to lead ETL and pipeline development, improving data quality and reliability.",
+      "Partnered with product, data, and analytics teams to ensure accuracy and accessibility of business-critical data.",
+      "Oversaw migration of legacy tech, prioritizing modernization and cost efficiency.",
+      "Drove stakeholder alignment across product, data, and engineering.",
+      "Skills: Stakeholder Management, Cross-Functional Collaboration, Communication, Data Quality, Data Modeling, Solution-Oriented Thinking"
     ],
   },
   {
@@ -36,14 +28,11 @@ const experiences = [
     role: "Engineering Team Lead",
     period: "December 2019 - October 2021",
     description: [
-      "Led the testing and integration workstream for payments and financial systems during"
-      "ING’s acquisition of Lendico."
-      "Established company-wide testing strategy ensuring compliance and data accuracy."
-      "Delivered joint product launch with Amazon, coordinating cross-functional efforts"
-      "from dev to release."
-      "Recruited, coached, and managed a QA team of 7 engineers."
-      "Skills: Ownership, Analytical Thinking, Attention to Detail, Curiosity, Payment Systems,"
-      "Financial Data Understanding, Adaptability"
+      "Led the testing and integration workstream for payments and financial systems during ING’s acquisition of Lendico.",
+      "Established company-wide testing strategy ensuring compliance and data accuracy.",
+      "Delivered joint product launch with Amazon, coordinating cross-functional efforts from dev to release.",
+      "Recruited, coached, and managed a QA team of 7 engineers.",
+      "Skills: Ownership, Analytical Thinking, Attention to Detail, Curiosity, Payment Systems, Financial Data Understanding, Adaptability"
     ],
   },
 ];
