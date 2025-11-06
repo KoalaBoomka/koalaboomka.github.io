@@ -5,35 +5,33 @@ import { Github, ExternalLink } from "lucide-react";
 
 const projects = [
   {
-    title: "Neural Style Transfer",
-    description: "Deep learning model for artistic image transformation using PyTorch. Achieved 15% faster inference time through model optimization.",
-    tech: ["PyTorch", "CNN", "Python", "CUDA"],
-    impact: "Used by 1.2k+ artists",
-    github: "https://github.com",
-    demo: "https://demo.example.com",
+    title: "Netflix vs Disney+: Award Analysis",
+    description: "This project analyzes Netflix and Disney+ award performance across the Oscars and Golden Globes. It demonstrates skills in data cleaning, analysis, and visual storytelling with Python.",
+    tech: ["Python", "Pandas", "NumPy", "Matplotlib"],
+    github: "https://github.com/KoalaBoomka/netflix-disney-comparison/"
   },
   {
-    title: "MLOps Pipeline Automation",
-    description: "End-to-end ML pipeline with automated training, testing, and deployment using MLflow and AWS. Reduced deployment time by 60%.",
-    tech: ["MLflow", "AWS SageMaker", "Docker", "Python"],
-    impact: "Deployed 50+ models",
-    github: "https://github.com",
+    title: "MPG Data Explorer",
+    description: "Interactive fuel efficiency visualization Data source: UCI Machine Learning Repository",
+    tech: ["Python", "Plotly", "Streamlit", "Pandas"],
+    github: "https://github.com/KoalaBoomka/inter-visual-streamlit/",
+    demo: "https://inter-visual.streamlit.app/",
   },
-  {
-    title: "Sentiment Analysis API",
-    description: "Real-time sentiment analysis system processing 10k requests/day. Built with transformers and FastAPI for low-latency inference.",
-    tech: ["Transformers", "FastAPI", "BERT", "Redis"],
-    impact: "99.5% uptime",
-    github: "https://github.com",
-    demo: "https://demo.example.com",
-  },
-  {
-    title: "Predictive Maintenance System",
-    description: "Time-series forecasting model predicting equipment failures. Reduced downtime by 40% using ensemble methods.",
-    tech: ["XGBoost", "LSTM", "Pandas", "scikit-learn"],
-    impact: "40% downtime reduction",
-    github: "https://github.com",
-  },
+  // {
+  //   title: "Sentiment Analysis API",
+  //   description: "Real-time sentiment analysis system processing 10k requests/day. Built with transformers and FastAPI for low-latency inference.",
+  //   tech: ["Transformers", "FastAPI", "BERT", "Redis"],
+  //   impact: "99.5% uptime",
+  //   github: "https://github.com",
+  //   demo: "https://demo.example.com",
+  // },
+  // {
+  //   title: "Predictive Maintenance System",
+  //   description: "Time-series forecasting model predicting equipment failures. Reduced downtime by 40% using ensemble methods.",
+  //   tech: ["XGBoost", "LSTM", "Pandas", "scikit-learn"],
+  //   impact: "40% downtime reduction",
+  //   github: "https://github.com",
+  // },
 ];
 
 const Projects = () => {
