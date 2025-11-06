@@ -7,9 +7,9 @@ const Footer = () => {
             © {new Date().getFullYear()} Daria. Built with passion for machine learning.
           </p>
           <div className="flex gap-6 text-sm text-muted-foreground">
-            {/* <a href="#projects" className="hover:text-primary transition-colors">
+            <a href="#projects" className="hover:text-primary transition-colors">
               Projects
-            </a> */}
+            </a>
             <a href="#experience" className="hover:text-primary transition-colors">
               Experience
             </a>
