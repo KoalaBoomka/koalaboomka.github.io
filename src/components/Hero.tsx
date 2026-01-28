@@ -26,7 +26,7 @@ const Hero = () => {
               Hi, I'm <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">Daria</span>
             </h1>
             <h2 className="text-xl md:text-2xl text-muted-foreground animate-fade-in">
-              Machine Learning Engineer
+              Applied AI Engineer
             </h2>
             <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto animate-fade-in">
               Passionate about data, models, and human-centered AI. Building intelligent systems that make a difference.
