@@ -5,9 +5,20 @@ import { Github, ExternalLink } from "lucide-react";
 
 const projects = [
   {
-    title: "Netflix vs Disney+: Award Analysis",
-    description: "This project analyzes Netflix and Disney+ award performance across the Oscars and Golden Globes. It demonstrates skills in data cleaning, analysis, and visual storytelling with Python.",
-    tech: ["Python", "Pandas", "NumPy", "Matplotlib"],
+    title: "Multimodal revenue forecasting (NDA Project)",
+    description: "Built a multimodal ML pipeline combining product metadata with image embeddings (CLIP, EVA, DINO) to predict future revenue.",
+    tech: ["Python", "Embeddings", "CLIP", "Pipelines"]
+  },
+  {
+    title: "Agent planner for complex journeys",
+    description: "Co-developed a multi-agent planning system to construct complex cross-border travel itineraries using Gemini-powered agents for reasoning, retrieval, and tool orchestration.",
+    tech: ["Python", "Gemini", "Agents", "Orchestration"],
+    github: "https://github.com/vapotapov/cross-border-agent"
+  },
+  {
+    title: "Streaming awards analytics (Netflix & Disney)",
+    description: "Analyzed how award-winning content (Oscars, Golden Globes) is distributed across Netflix and Disney catalogs by merging multiple public datasets.",
+    tech: ["Python", "Pandas", "Data Wrangling", "Visualisation"],
     github: "https://github.com/KoalaBoomka/netflix-disney-comparison/"
   },
   {
