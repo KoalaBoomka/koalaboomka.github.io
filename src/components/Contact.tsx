@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Github, Linkedin, Mail, FileText } from "lucide-react";
+import { SiKaggle, SiLeetcode } from "react-icons/si";
 
 const Contact = () => {
   return (
@@ -35,6 +36,18 @@ const Contact = () => {
                 <a href="https://github.com/koalaboomka" target="_blank" rel="noopener noreferrer">
                   <Github className="mr-2 h-5 w-5" />
                   GitHub
+                </a>
+              </Button>
+              <Button variant="outline" size="lg" asChild className="hover:border-primary/50">
+                <a href="https://www.kaggle.com/koalaboomka/" target="_blank" rel="noopener noreferrer">
+                  <SiKaggle className="mr-2 h-5 w-5" />
+                  Kaggle
+                </a>
+              </Button>
+              <Button variant="outline" size="lg" asChild className="hover:border-primary/50">
+                <a href="https://leetcode.com/u/KoalaBoomka/" target="_blank" rel="noopener noreferrer">
+                  <SiLeetcode className="mr-2 h-5 w-5" />
+                  LeetCode
                 </a>
               </Button>
               <Button variant="outline" size="lg" asChild className="hover:border-primary/50">
