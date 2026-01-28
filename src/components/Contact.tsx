@@ -30,7 +30,9 @@ const Contact = () => {
           </div>
           
           <div className="pt-8 space-y-4">
-            <p className="text-sm text-muted-foreground">Find me on</p>
+            <p className="text-base sm:text-lg font-medium text-muted-foreground text-center">
+              Find me on
+            </p>
             <div className="flex flex-wrap gap-3 sm:gap-4 justify-center">
               <Button variant="outline" size="lg" asChild className="hover:border-primary/50">
                 <a href="https://github.com/koalaboomka" target="_blank" rel="noopener noreferrer">
