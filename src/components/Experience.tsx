@@ -2,11 +2,13 @@ import { Briefcase } from "lucide-react";
 
 const experiences = [
   {
-    company: "Constructor Nexademy",
-    role: "Data Scientist (in training)",
-    period: "September - December 2025",
+    company: "Best Price",
+    role: "Applied Data Scientist (consultant)",
+    period: "November - December 2025",
     description: [
-      "Currently completing an intensive Data Science bootcamp, gaining hands-on experience in data analysis, machine learning, and model deployment. Developing end-to-end skills from data collection and preprocessing to statistical analysis, predictive modeling, and interactive visualization.",
+      "Built a multimodal revenue prediction pipeline combining tabular product data with image embeddings (CLIP, EVA, DINO).",
+      "Designed and executed preprocessing (log transforms, categorical encoding temporal features) and trained ML models against a strong tabular baseline.",
+      "Evaluated whether visual signals add predictive power and delivered results via an interactive demo for stakeholders.",
       "Skills: Python, Pandas, NumPy, SQL, Scikit-learn, NLP, CNNs, GitHub, Statistics, Data Storytelling"
     ],
   },
@@ -67,7 +69,7 @@ const Experience = () => {
         <div className="text-center mb-12 space-y-4">
           <h2>Experience</h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Former meeting survivor, current ML engineer. Building intelligent systems hands-on, one epoch at a time.
+            Former meeting survivor, current AI engineer. Building intelligent systems hands-on, one epoch at a time.
           </p>
         </div>
         
