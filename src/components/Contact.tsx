@@ -29,7 +29,7 @@ const Contact = () => {
             </Button>
           </div>
           
-          <div className="pt-8 space-y-4">
+          <div className="flex flex-wrap gap-3 sm:gap-4 justify-center">
             <p className="text-sm text-muted-foreground">Find me on</p>
             <div className="flex gap-4 justify-center">
               <Button variant="outline" size="lg" asChild className="hover:border-primary/50">
