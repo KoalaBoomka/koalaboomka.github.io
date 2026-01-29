@@ -72,7 +72,7 @@ All colors MUST be HSL.
     --popover-foreground: 270 15% 95%;
 
     --primary: 280 65% 65%;
-    --primary-foreground: 270 25% 10%;
+    --primary-foreground: 0 0% 100%;
     
     --primary-glow: 280 70% 75%;
 
