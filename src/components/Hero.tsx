@@ -23,7 +23,7 @@ const Hero = () => {
         <div className="flex flex-col items-center text-center space-y-8">
           <div className="space-y-4 max-w-3xl">
             <h1 className="animate-fade-in">
-              Hi, I'm <span className="bg-gradient-to-r from-primary to-secondary dark:from-primary/90 dark:to-secondary/90 bg-clip-text text-transparent">Daria</span>
+              Hi, I'm <span className="bg-gradient-to-r from-primary to-secondary dark:bg-none dark:text-foreground bg-clip-text text-transparent">Daria</span>
             </h1>
             <h2 className="text-xl md:text-2xl text-muted-foreground animate-fade-in">
               Applied AI Engineer
