@@ -89,7 +89,7 @@ const Experience = () => {
                   <span className="text-sm text-muted-foreground font-medium">{exp.period}</span>
                 </div>
                 
-                <div className="flex items-center gap-2 text-secondary">
+                <div className="flex items-center gap-2 text-muted-foreground">
                   <Briefcase className="h-4 w-4" />
                   <p className="font-medium">{exp.company}</p>
                 </div>
