@@ -2,13 +2,14 @@ import { Briefcase } from "lucide-react";
 
 const experiences = [
   {
-    company: "Best Secret",
+    company: "Bestsecret",
     role: "Applied Data Scientist (consultant)",
     period: "November - December 2025",
     description: [
-      "Built a multimodal revenue prediction pipeline combining tabular product data with image embeddings (CLIP, EVA, DINO).",
-      "Designed and executed preprocessing (log transforms, categorical encoding temporal features) and trained ML models against a strong tabular baseline.",
-      "Evaluated whether visual signals add predictive power and delivered results via an interactive demo for stakeholders.",
+      "Ran a controlled ML experiment for BestSecret to determine whether product image embeddings improve revenue forecasting beyond structured metadata.",
+      "Designed and built the full data pipeline for 10,000 fashion products — preprocessing tabular features (log transforms, categorical encoding, temporal features) and extracting image embeddings using CLIP, EVA, and DINO.",
+      "Trained and benchmarked Linear Regression, XGBoost, and CatBoost across multiple feature combinations; best model achieved R² = 0.803, a ~10% improvement over the tabular baseline.",
+      "Determined that visual embeddings did not provide meaningful predictive lift beyond structured metadata — delivering a clear, evidence-based recommendation against further image investment.",
       "Skills: Python, Pandas, NumPy, SQL, Scikit-learn, NLP, CNNs, GitHub, Statistics, Data Storytelling"
     ],
   },
@@ -26,7 +27,7 @@ const experiences = [
     ],
   },
   {
-    company: "ING (Lendico)",
+    company: "ING",
     role: "Engineering Team Lead",
     period: "December 2019 - October 2021",
     description: [
